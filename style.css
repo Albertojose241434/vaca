@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+
 }
+
 .ia{
     text-align: right;
+
+}
+#body{
+    background-color: brown;
 }
