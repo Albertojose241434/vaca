@@ -44,13 +44,37 @@ const setLike = objeto =>{
         boton.cantidad = like[boton.id].cantidad + 1;
         objeto.querySelector('#like').textContent = boton.cantidad;
     }
-    if (Dislike.hasOwnProperty(boton.id)){
-        boton.cantidad = Like[boton.id].cantidad - 1;
-        objeto.querySelector('#Dislike').textContent = boton.cantidad;
-}
+
 
     like[boton.id] = {...boton};
 
     console.log(like[boton.id]);
+
+    items.addEventListener('click', e => {
+        addDislike(e);
+    })
+    
+    const addDislike = e => {
+        console.log(e.target.classList.contains('btn-dark')); {
+        setDislike(e.target.parentElement);
+        }
+    }
+    
+    
+    const setDislike = objeto =>{
+        const boton = {
+            id: objeto.querySelector('.btn-dark').dataset.id,
+            cantidad: 1
+        }
+    
+        if (Dislike.hasOwnProperty(boton.id)){
+            boton.cantidad = Disike[boton.id].cantidad - 1;
+            objeto.querySelector('#Like').textContent = boton.cantidad;
+        }
+    
+        Dislike[boton.id] = {...boton};
+    
+        console.log(Dislike[boton.id]);
+    }
 }
 
