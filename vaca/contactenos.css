@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+main{
+    text-align: center;
+    margin-top: 10%;
+}
+p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 30px;
+    border-style: none;
+}
+
+
+#elpe{
+    height: 80ch;
+    width: 99.1vw;
+    margin-right: auto;
+    position: fixed;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: aquamarine;
+}
