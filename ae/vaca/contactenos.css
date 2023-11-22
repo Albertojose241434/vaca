@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+background: url("/vaca/omg/fondocontatenos.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+}
+
+main{
+    text-align: center;
+    margin-top: 80px;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.con{
+    margin: 10px;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input{
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: aqua;
+    border-style: solid;
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: aqua;
+    color: white;
+    border-style: solid;
+}
+
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: aquamarine;
+}
