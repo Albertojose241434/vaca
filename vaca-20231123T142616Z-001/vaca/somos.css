@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 208, 0);
+}
+#letra{
+    text-align: center;
+}
+p{
+    color: brown;
+}
