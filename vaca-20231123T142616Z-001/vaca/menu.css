@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(221, 143, 40);
+    text-align: center;
+    background-color: rgba(236, 144, 23, 0.925);
+}
+body{
+    background-color: brown;
+}
+
